@@ -28,42 +28,10 @@ export default function Home() {
       </div>
 
       <p className="text-2xl">
-        This is a template for creating a Next.js site and deploying it on Fleek!
+      Fleek makes it easy to ship performant apps in minutes. <br/>
+      Deploy instantly, run globally, scale automatically.      
       </p>
 
-      <ul
-        className='grid grid-cols-2 gap-[15px]'
-        role='list'
-      >
-        <Card
-          icon='/fleekMark.svg'
-          width={19}
-          href="https://docs.fleek.xyz/"
-          title="Fleek Documentation"
-          body="Learn about Fleek & the available services by cheking our official docs."
-        />
-        <Card
-          icon='/nextMark.svg'
-          width={31}
-          href="https://nextjs.org/docs"
-          title="Next.js Documentation"
-          body="Learn about how Next.js works and explore the official API docs."
-        />
-        <Card
-          icon='/fleekMark.svg'
-          width={19}
-          href="https://blog.fleek.xyz/"
-          title="Fleek Blog"
-          body="Checkout our Blog for more information about Fleek."
-        />
-        <Card
-          icon='/nextMark.svg'
-          width={31}
-          href="https://astro.build/integrations/"
-          title="Next.js Blog"
-          body="Check the latest news about Next.js."
-        />
-      </ul>
     </main>
   )
 }
